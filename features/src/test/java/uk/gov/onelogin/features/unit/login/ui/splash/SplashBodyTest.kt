@@ -40,7 +40,7 @@ class SplashBodyTest : FragmentActivityTestCase() {
         loadingText = hasText(resources.getString(R.string.app_splashScreenLoadingIndicatorText))
         loadingContentDescription =
             hasContentDescription(
-                resources.getString(R.string.app_loading_content_desc)
+                resources.getString(R.string.app_splashScreenLoadingContentDescription)
             )
         loadingIndicator = hasTestTag(context.getString(R.string.splashLoadingSpinnerTestTag))
     }
